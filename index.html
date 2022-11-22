@@ -26,21 +26,28 @@
 <div class="modal fade" id="contactModalCenter" tabindex="-1" role="dialog" aria-labelledby="contactModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <!-- <div class="modal-content text-center"> -->
-    <div class="modal-content text-center">
+    <div class="modal-content">
       <div class="modal-body">
         
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
+            <br>
+            <h4 class="w-100 text-center">Say hi!</h4><br>
+            <h6>I'd love to hear from you if you are at all interested in piano lessons.</h6><br>
+            <h6>I will do my best to get back to you as soon as possible!</h6><hr>
+                    <!-- myContactFormModal -->
+              <form id="reset" class="form">
+               <div id="form">
+                  <input type="text" id="name" name="name" placeholder="Your name.." required>
+                <input type="email" id="email" name="email" placeholder="Your Email.." required>
+                 <textarea id="message" name="message" placeholder="Message.." style="height:180px"></textarea>
+                <input id="submit" type="submit" class="btn btn-xl btn-primary" value="Send Message">
+               </div>
+               <div id="msg"></div>
+              </form>
+            <br>
 
-            <br>
-            <h4 class="w-100">Say hi!</h4>
-            <hr>
-            <h6>I'd love to hear from you if you are at all interested in piano lessons. I would also be more than happy to answer any questions you may have.</h6>
-            <br>
-            <h6>Send a message to the email address below and I will do my best to get back to you as soon as possible!</h6>
-            <br>
-              <h6>EMAILADDRESSHERE</h6>    
       </div>
     </div>
   </div>
@@ -52,7 +59,7 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
   <div class="container">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">Stephen Theofanous || Piano Teacher</a>
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">ST || Piano Teacher</a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -80,16 +87,17 @@
   <div class="container my-auto">
       <br><br>
       <div class="col-lg-10 mx-auto">
-        <h1 class="text-white text-faded">
+        <h1 class="text-white">
          Fun And Effective Piano Lessons
         </h1>
-        <hr class="light">
+        <!-- <hr class="light"> -->
+        <hr>
       </div>
       <div class="col-lg-8 mx-auto">
         <h4 class="text-light mb-5">Engaging lessons for students of all ages and abilities.</h4>
 <!--         <button type="button" class="btn btn-xl btn-primary" data-toggle="modal" data-target="#contactModalCenter">Get In Touch!</button> -->
-        <a class="js-scroll-trigger btn btn-xl btn-light text-dark sr-button" href="#about">
-            Find Out More</a>
+        <a class="js-scroll-trigger btn btn-xl btn-primary sr-button" href="#about">
+            FIND OUT MORE</a>
       </div>
     </div>
 </header>
